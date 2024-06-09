@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Header and panel */
+.titles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  
+}
+.main-head{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  width: 85%;
+  float: right;
+  height:10.4vh;
+  border:1px solid red
+}
+.Log-Sign{
+  margin-left: 15%;
+}
+.side-panel{
+  width: 15%;
+  border: 1px solid blue;
+  height: 100vh;
+  background-color: lightgray;
+}
+.contain{
+  display: flex;
+  flex-direction: row;
+}
+
+.login{
+  background-color: transparent;
+  border: 3px solid lightcoral ;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+.sign-up{
+  border-radius: 10px;
+  background-color: transparent;
+  border: 3px solid green ;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 2vh;
+}
+.login:hover{
+  background-color: lightcoral;
+  transition: 0.5s ease;
+  color: white;
+  cursor: pointer;
+}
+.sign-up:hover{
+  background-color: green;
+  transition: 0.5s ease;
+  color: white;
+  cursor: pointer;
+}
+
+/* Panel logo */
+.head-logo{
+  margin-top: 8%;
+  height: 50px;
+  margin-left: 45%;
+  border: 1px solid red;
+}
+.outlet{
+  border: 1px solid black;
+  width: 85%;
+  height: 89.6vh;
+  float: right;
+  margin-left: -85%; 
+  margin-top: 100px; 
+}
+
+.brand-logo-container{
+  height: 10.15vh;
+  border: 1px solid green;
+}
+.margins-head{
+  margin-right: 2vw;
+}
+
+/* MENU ITEMS */
+.menu-closed{
+  /* display: none; */
+  width: 100%;
+  max-height: 15vh;
+  border: 1px solid maroon;
+  padding-top: 1.5vh;
+}
+.side-panel a{
+  margin-bottom:2vh ;
+}
+.side-panel a.active{
+  display:block;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  background-color: cadetblue;
+  border-radius: 3.125em;
+  height: 4vh;
+}
+.inactive{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  height: 4vh;
+  color: black;
+}
+.active>p, .inactive> p{
+  padding-top: 1vh;
+  margin-top: 0;
+}
+.inactive:hover{
+  background-color: darkgray;
+  border-radius: 3.125em;
+}
+.drop-items{
+  list-style-type: none;
+}
+.drop-items>li{
+  margin-top: 1vh;
+}
