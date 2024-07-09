@@ -84,10 +84,10 @@ code {
 .outlet{
   border: 1px solid black;
   width: 85%;
-  height: 89.6vh;
+  height: 89vh;
   float: right;
   margin-left: -85%; 
-  margin-top: 100px; 
+  margin-top:10.5vh 
 }
 
 .brand-logo-container{
@@ -129,16 +129,30 @@ code {
   color: black;
 }
 .active>p, .inactive> p{
-  padding-top: 1vh;
-  margin-top: 0;
+  padding-top: 0.25vh;
+  margin-top: 2vh;
 }
 .inactive:hover{
   background-color: darkgray;
   border-radius: 3.125em;
 }
-.drop-items{
-  list-style-type: none;
+/* Signup */
+.reg-form{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin:22.25vh auto;
+  width: 50vw;
+  height: 60vh;
 }
-.drop-items>li{
-  margin-top: 1vh;
+.input-control{
+  margin: 3% 0px 0px 39% ;
+}
+.sub-btn{
+  margin: 5% 40%;
+  height:5vh;
+  width:10vw;
+  background-color:lightblue;
+  font-weight: bold;
+  border: 1px solid gray;
+  border-radius: 15px;
 }

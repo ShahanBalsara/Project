@@ -1,6 +1,6 @@
 import logo from './components/images/logo192.png';
 import './App.css';
-import { Link, Routes, Route, BrowserRouter as Router, NavLink } from 'react-router-dom';
+import { Link, Routes, Route, BrowserRouter as Router, NavLink, Outlet } from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
@@ -46,7 +46,7 @@ function App() {
             <Route path='signup' element={<Signup />} />
             <Route path='products' element={<Products/>}/>
           </Routes>
-
+          <Outlet/>
         </div>
       </div>
 
